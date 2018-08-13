@@ -22,7 +22,7 @@ int main()
 	std::cout << "Which do you prefer, Mr. Matthew?" << std::endl;
 	std::cout << "	*Apples" << std::endl;
 	std::cout << "	*Watermelons" << std::endl;
-	std::cout << "Strawberries" << std::endl;
+	std::cout << "	*Strawberries" << std::endl;
 	/*I guess these are changes...?*/
 
 return 0;
