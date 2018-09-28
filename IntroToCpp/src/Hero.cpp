@@ -1,15 +1,15 @@
 #include "Hero.h"
 #include <string>
 
-Hero::Hero():mName("default"), mPower(-1), mHealth(-1)
+Hero::Hero() :mName("default"), mPower(-1), mHealth(-1)
 {
 }
 
-Hero::Hero(std::string name, int power, int health): mPower(power), mHealth(health)
-{	
+Hero::Hero(std::string name, int power, int health) : mPower(power), mHealth(health)
+{
 	///Steffans problem
 	///must allocate memory for the string that comes in or it will lose it's value
-	mName = std::string(name);	
+	mName = std::string(name);
 }
 
 Hero::~Hero()
@@ -25,7 +25,7 @@ void Hero::Fight(Hero &other)
 
 bool Hero::IsAlive()
 {
-	///being alive is defined to be greater than zero range	
+	///being alive is defined to be greater than zero range
 	return mHealth > 0;
 }
 

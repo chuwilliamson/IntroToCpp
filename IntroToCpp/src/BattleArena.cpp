@@ -1,5 +1,5 @@
 #include "BattleArena.h"
-#include "Hero.h" 
+#include "Hero.h"
 BattleArena::BattleArena()
 {
 }
@@ -7,7 +7,6 @@ BattleArena::BattleArena()
 BattleArena::~BattleArena()
 {
 }
-
 
 void BattleArena::Start()
 {
@@ -56,9 +55,7 @@ void BattleArena::Update()
 
 	top2.IsAlive() ? team1->Pop() : team2->Pop();
 
-
 	winner = team2->isEmpty() ? team1 : team2;
-
 }
 
 void BattleArena::Shutdown()

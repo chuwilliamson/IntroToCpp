@@ -9,6 +9,5 @@ void Game::Run(const char * name)
 	{
 		Update();
 	}
-	Shutdown();	
+	Shutdown();
 }
-

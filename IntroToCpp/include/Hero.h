@@ -1,16 +1,15 @@
 #pragma once
 #include <string>
 /*Class Name: Hero
-	@Description: Object to participate in the main game loop	
+	@Description: Object to participate in the main game loop
 */
 class Hero
 {
-	
 public:
 	Hero();
 	Hero(std::string name, int power, int health);
 	~Hero();
-	
+
 	/*
 	@prototype  Fight(Hero& hero)
 	@params  hero the hero to fight
@@ -34,12 +33,12 @@ public:
 	/*
 		@prototype Take Damage
 		@params amount the amount of damage to take
-		@description receives damage 
+		@description receives damage
 		@precondition instance of hero exists and is called from this instance only
 		@postcondition hero "takes damage" by reducing m_Health by the "amount" parameter
 		@cost analysis
 		@visibility public
-	*/	
+	*/
 	void TakeDamage(int);
 private:
 	std::string mName;
@@ -48,7 +47,7 @@ private:
 		@Description:wholeness of the Hero, ability to participate
 		@Type:int
 		@Range of acceptable values: positive integer values, not restricting to unsigned int
-	*/	
+	*/
 	int mHealth;
 
 	/*

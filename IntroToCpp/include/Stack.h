@@ -1,4 +1,4 @@
-#pragma once 
+#pragma once
 template <class T>
 class Stack
 {
@@ -10,7 +10,7 @@ public:
 	bool isEmpty();
 	bool isFull();
 private:
-	T* mData;
+	T * mData;
 	int mCount;
 protected:
 };

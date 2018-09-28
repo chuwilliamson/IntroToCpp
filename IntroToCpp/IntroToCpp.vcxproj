@@ -25,8 +25,8 @@
     <ClInclude Include="include\Stack.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="include\Hero.cpp" />
-    <ClCompile Include="include\Stack.cpp" />
+    <ClCompile Include="src\Hero.cpp" />
+    <ClCompile Include="src\Stack.cpp" />
     <ClCompile Include="src\BattleArena.cpp" />
     <ClCompile Include="src\Game.cpp" />
     <ClCompile Include="src\Source.cpp" />
