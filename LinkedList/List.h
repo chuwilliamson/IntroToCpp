@@ -2,7 +2,6 @@
 #include "Iterator.h"
 
 template <class Type>
-
 class List
 {
 protected:
@@ -89,8 +88,10 @@ public:
 
 	~List();
 private:
-	void copyList(const List<Type>& otherList);
+
 	//Function to make a copy of otherlist
 	//Postcondition: a copy of otherlist is created and assigned to this list
+	void copyList(const List<Type>& otherList);
+
 };
 
